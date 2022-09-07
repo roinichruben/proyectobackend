@@ -1,0 +1,53 @@
+/*font-family: 'Nunito', sans-serif;*/
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+header {
+    background-color: #1F2C81;
+    padding: 0.6rem 0;
+}
+
+
+
+footer {
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 0rem 0;
+    margin-top: 0.9rem;
+}
+
+.holder {
+    max-width: 60rem;
+    margin: auto;
+}
+
+h2 {
+    color: #2e64a1;
+    font-weight: 100;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    html{
+      font-size: 1.25vmin;
+    }
+    
+  }
+  
+  @media screen and (min-width: 640px) and (max-width: 1280px) {
+    html{
+      font-size: 1.5vmin;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    html{
+      font-size: 1.75vmin;
+    }
+    
+  }
